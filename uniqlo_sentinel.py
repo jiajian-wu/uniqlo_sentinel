@@ -51,7 +51,7 @@ def find_cur_sizes():
     for size in selectable:
         size_list.append(size.text.strip())
 
-    print("Available size: ", size_list)
+    print("\nAvailable size: ", size_list)
 
     if "X" in size_list or "XS" in size_list or "XXS" in size_list:  # find whether XS or XXS is available
         send_gmail()
