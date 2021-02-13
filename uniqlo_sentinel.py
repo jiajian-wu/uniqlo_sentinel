@@ -10,7 +10,7 @@ def send_gmail():
     import smtplib
 
     sent_from = 'jaywu.quant@gmail.com'
-    gmail_password = 'El0nM1_1sk'
+    gmail_password = 'xxxxxxxxxx' 
     to = ['jaywu.quant@gmail.com']
 
     email_text = '''
